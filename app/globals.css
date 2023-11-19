@@ -9,5 +9,7 @@
   box-sizing: border-box;
 }
 body{
-background: url("/banner.webp");
+background: url("/bg.jpg") no-repeat ;
+background-position: center;
+background-size: cover;
 }
