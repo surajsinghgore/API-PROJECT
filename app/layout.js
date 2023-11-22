@@ -22,7 +22,7 @@ export const metadata = {
   ],
   creator: "suraj singh",
   publisher: "suraj singh",
-  viewport: "width=device-width, initial-scale=1",
+ 
 };
 
 

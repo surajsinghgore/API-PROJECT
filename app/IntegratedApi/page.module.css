@@ -1,0 +1,9 @@
+.IntegratedApi{
+padding-left: 2%;
+    background: url("/api.jpg") no-repeat ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+padding-top: 4.5%;
+}
