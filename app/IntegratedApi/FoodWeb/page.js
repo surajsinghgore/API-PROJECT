@@ -23,6 +23,7 @@ export default async function page() {
                       src={item.food.image}
                       alt={item.food.image}
                       layout="fill"
+                      priority
                     />
                   </div>
                   <div className="flex flex-col justify-between p-4 leading-normal w-40">

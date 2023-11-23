@@ -13,7 +13,7 @@ export default function Home() {
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
     <div className="relative w-22 h-52"> 
-        <Image className="rounded-t-lg" src="/api.webp" alt="web" layout='fill'/>
+        <Image className="rounded-t-lg" src="/api.webp" alt="web" layout='fill' priority/>
     </div>
       
         
@@ -36,7 +36,7 @@ export default function Home() {
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
     <div className="relative w-22 h-52"> 
-        <Image className="rounded-t-lg" src="/udapi.jpeg" alt="web" layout='fill'/>
+        <Image className="rounded-t-lg" src="/udapi.jpeg" alt="web" layout='fill' priority/>
     </div>
       
         
