@@ -1,15 +1,27 @@
-import React from "react";
+'use client';
+
+import React, { useEffect, useState } from "react";
 import style from "./page.module.css";
 import Image from "next/legacy/image";
-export default async function page() {
+export default  function Page() {
+  const [data,setData]=useState([]);
+const loadData=async()=>{
   const res = await fetch(process.env.NEXT_PUBLIC_FOOD_API);
-  const data = await res.json();
+  const datas = await res.json();
+  setData(datas.hints);
+}
+  useEffect(()=>{
+    loadData()
+  },[])
+
 
   return (
     <div>
-      {data != undefined ? (
+  {data!= undefined ? (
         <div className={style.FoodWeb}>
-          {data.hints.map((item,index) => {
+
+
+          {data.map((item,index) => {
             return (
         
                 <a

@@ -1,7 +1,5 @@
 import style from './page.module.css'
 import Link from 'next/link';
-import Image from "next/legacy/image";
-
 export default function page() {
   return (
     <div className={style.IntegratedApi}>
