@@ -16,7 +16,7 @@ export default function page() {
         <div className="px-5 pb-5">
           <Link href="/IntegratedApi/FoodWeb">
             <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              FooD Data API
+              Food Data API
             </h5>
           </Link>
         

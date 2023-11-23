@@ -13,8 +13,7 @@
 }
 
 .ImageCon{
-    width: 10vw;
+    position: relative;
+    width: 16vw;
     height: 10vw;
-    margin-bottom: 5%;
-
-z-index: -50;}
+}
