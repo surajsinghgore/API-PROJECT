@@ -14,8 +14,8 @@ export default async function page() {
         
                 <a
                   href={item.food.image}
-                  className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-2 flex-wrap" 
-                  key={item.foodId+index}
+                  className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-2 flex-wrap"
+                  key={item+index}
                 >
                   <div className={style.ImageCon}>
                     <Image
