@@ -6,8 +6,8 @@ export default async function page() {
   const data = await res.json();
 
   return (
-    <div className={style.FoodWeb}>
-      {data.hints.map((item) => {
+    <div >
+    {data!=undefined ?<div className={style.FoodWeb}> {data.hints.map((item) => {
         return (
           <a
             href={item.food.image}
@@ -32,7 +32,8 @@ export default async function page() {
             </div>
           </a>
         );
-      })}
+      })} </div>:""}
+      
     </div>
   );
 }
